@@ -13,4 +13,5 @@ impt_cols = ['team', 'team_opp', 'fga', 'fg%', '3p', '3p%', 'ft',
 
 df_2023 = df[df['season'] == 2023]
 cleaned_df = df_2023[impt_cols].copy()
+
 cleaned_df.to_csv('cleaned_csv')
