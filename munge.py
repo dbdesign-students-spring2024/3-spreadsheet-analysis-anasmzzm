@@ -1,5 +1,5 @@
 # place your code to clean up the data file below.
-
+#I used a JupyterLab notebook to code the webscraping portion to create the raw data csv called nba_games.csv
 import pandas as pd
 
 df = pd.read_csv('nba_games.csv')
